@@ -4,7 +4,9 @@ import { router } from "./routes";
 function App() {
   return (
     <>
-      <RouterProvider router={router} basename="/Exam-Platform/" />
+      <RouterProvider router={router} 
+      // basename="/Exam-Platform/" 
+      />
     </>
   );
 }
